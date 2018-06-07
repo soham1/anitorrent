@@ -4,6 +4,10 @@
 
 <img src="https://i.imgur.com/LxpLI6A.jpg" alt="image">
 
+## Demonstration
+
+[![Demonstration](https://i.imgur.com/CjAIDjN.png)](https://www.youtube.com/watch?v=HO3uTBC0Ilo)
+
 ## Prerequisites
 
 * Must have NodeJS installed. Installers can be found [here](https://nodejs.org/en/download/).
@@ -24,6 +28,7 @@
   ```
 * For additional anime, create another object in the array.
 * Use the command line to cd into the repository and run ```node index.js```.
+* All anime will be downloaded in anime/<anime name>/.
 
 ## Libraries
-* [NodeJS](https://nodejs.org), [jQuery](https://jquery.com/), [WebTorrent](https://github.com/webtorrent/webtorrent), [Puppeteer](https://github.com/GoogleChrome/puppeteer)
+* [NodeJS](https://nodejs.org), [jQuery](https://jquery.com/), [WebTorrent](https://github.com/webtorrent/webtorrent), [Puppeteer](https://github.com/GoogleChrome/puppeteer), [Chalk](https://github.com/chalk/chalk), [CLI-Progress](https://github.com/AndiDittrich/Node.CLI-Progress)
