@@ -12,6 +12,12 @@ console.log(chalk.red.bold('Starting AniTorrent'));
 let animeData = JSON.parse(fs.readFileSync('animeData.json'));
 
 async function init() {
+  
+  if (!fs.existsSync('anime')){
+    console.log(chalk.green.bold('Creating anime folder'));
+    fs.mkdirSync('anime');
+  }
+
   for (i=0; i < animeData.length; i++) {
     if (!fs.existsSync('anime/' + animeData[i].name)){
       console.log(chalk.green.bold('Creating a folder for', animeData[i].name));
