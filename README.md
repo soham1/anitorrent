@@ -2,12 +2,14 @@
 
 <p align="center">Automatically downloads the latest episode of your favorite anime from HorribleSubs.</p>
 
-<img src="https://i.imgur.com/LxpLI6A.jpg" alt="image">
+<p align="center">
+  <img src="https://i.imgur.com/LxpLI6A.jpg" alt="image">
+</p>
 
 ## Demonstration
-
-[![Demonstration](https://i.imgur.com/CjAIDjN.png)](https://www.youtube.com/watch?v=HO3uTBC0Ilo)
-
+<p align="center">
+  [![Demonstration](https://i.imgur.com/CjAIDjN.png)](https://www.youtube.com/watch?v=HO3uTBC0Ilo)
+</p>
 ## Prerequisites
 
 * Must have NodeJS installed. Installers can be found [here](https://nodejs.org/en/download/).
