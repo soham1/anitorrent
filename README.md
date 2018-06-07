@@ -7,9 +7,13 @@
 </p>
 
 ## Demonstration
+
 <p align="center">
-  [![Demonstration](https://i.imgur.com/CjAIDjN.png)](https://www.youtube.com/watch?v=HO3uTBC0Ilo)
+  <a href="https://www.youtube.com/watch?v=HO3uTBC0Ilo">
+    <img src="https://i.imgur.com/CjAIDjN.png">
+  </a>
 </p>
+
 ## Prerequisites
 
 * Must have NodeJS installed. Installers can be found [here](https://nodejs.org/en/download/).
