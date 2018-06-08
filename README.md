@@ -6,25 +6,25 @@
   <img src="https://i.imgur.com/LxpLI6A.jpg" alt="image">
 </p>
 
-## Demonstration
+<h2 align="center">Demonstration</h2>
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=HO3uTBC0Ilo" target="_blank">
+  <a href="https://www.youtube.com/watch?v=HO3uTBC0Ilo">
     <img src="https://i.imgur.com/CjAIDjN.png">
   </a>
 </p>
 
-## Prerequisites
+<h2 align="center">Prerequisites</h2>
 
 * Must have NodeJS installed. Installers can be found [here](https://nodejs.org/en/download/).
 
-## Instructions
+<h2 align="center">Instructions</h2>
 
-* Clone Repository.
-* Use the command line to cd into the repository and run ```npm install```
-* Go to [HorribleSubs](horriblesubs.info), and find the anime you want to set automatic downloads for.
-* Copy the text that comes after "http://horriblesubs.info/shows/".
-* Go to the cloned repository and create a JSON object inside the array in the format:
+1. Clone Repository.
+2. Use the command line to cd into the repository and run ```npm install```
+3. Go to [HorribleSubs](horriblesubs.info), and find the anime you want to set automatic downloads for.
+4. Copy the text that comes after "http://horriblesubs.info/shows/".
+5. Go to the cloned repository and create a JSON object inside the array in the format:
   ```
   {
     "name":"Paste The Copied Text In Step 2 Here",
@@ -32,9 +32,15 @@
     "latestEpisode":"Paste Latest Episode Here"
   }  
   ```
-* For additional anime, create another object in the array.
-* Use the command line to cd into the repository and run ```node index.js```.
-* All anime will be downloaded in anime/<anime name>/.
+6. For additional anime, create another object in the array.
+7. Use the command line to cd into the repository and run ```node index.js```.
+8. All anime will be downloaded in anime/<anime name>/.
 
-## Libraries
-* [NodeJS](https://nodejs.org), [jQuery](https://jquery.com/), [WebTorrent](https://github.com/webtorrent/webtorrent), [Puppeteer](https://github.com/GoogleChrome/puppeteer), [Chalk](https://github.com/chalk/chalk), [CLI-Progress](https://github.com/AndiDittrich/Node.CLI-Progress)
+<h2 align="center">Libraries</h2>
+
+* [NodeJS](https://nodejs.org)
+* [jQuery](https://jquery.com/)
+* [WebTorrent](https://github.com/webtorrent/webtorrent)
+* [Puppeteer](https://github.com/GoogleChrome/puppeteer)
+* [Chalk](https://github.com/chalk/chalk)
+* [CLI-Progress](https://github.com/AndiDittrich/Node.CLI-Progress)
