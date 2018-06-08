@@ -9,7 +9,7 @@
 ## Demonstration
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=HO3uTBC0Ilo">
+  <a href="https://www.youtube.com/watch?v=HO3uTBC0Ilo" target="_blank">
     <img src="https://i.imgur.com/CjAIDjN.png">
   </a>
 </p>
