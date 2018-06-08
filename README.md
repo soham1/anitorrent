@@ -34,7 +34,7 @@
   ```
 6. For additional anime, create another object in the array.
 7. Use the command line to cd into the repository and run ```node index.js```.
-8. All anime will be downloaded in anime/<anime name>/.
+8. All anime will be downloaded in ```anime/<anime name>/```.
 
 <h2 align="center">Libraries</h2>
 
