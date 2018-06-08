@@ -6,6 +6,14 @@
   <img src="https://i.imgur.com/LxpLI6A.jpg" alt="image">
 </p>
 
+<h2 align="center">Features</h2>
+
+* Will only download on the day an episode is scheduled to release.
+* Downloads are in the form of peer-to-peer torrents, resulting in faster downloads (depends on anime popularity).
+* If there is a delay or an absence of an episode, no episodes will be downloaded.
+* Organizes downloaded episodes by folders (using anime's name), episodes themselves are named appropriately.
+* Episodes are **subbed in English**...(who watches dubbed anime anyway).
+
 <h2 align="center">Demonstration</h2>
 
 <p align="center">
@@ -25,7 +33,7 @@
 3. Go to [HorribleSubs](horriblesubs.info), and find the anime you want to set automatic downloads for.
 4. Copy the text that comes after "http://horriblesubs.info/shows/".
 5. Go to the cloned repository and create a JSON object inside the array in the format:
-  ```
+  ```json
   {
     "name":"Paste The Copied Text In Step 2 Here",
     "day":"Paste The Day It Releases Every Week i.e. Saturday",
