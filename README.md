@@ -1,4 +1,4 @@
-<h1 align="center">AniTorrent</h1>
+<h1 align="center">:sunny: AniTorrent :sunny:</h1>
 
 <p align="center">Automatically downloads the latest episode of your favorite anime from HorribleSubs.</p>
 
@@ -12,7 +12,7 @@
 * Downloads are in the form of peer-to-peer torrents, resulting in faster downloads (depends on anime popularity).
 * If there is a delay or an absence of an episode, no episodes will be downloaded.
 * Organizes downloaded episodes by folders (using anime's name), episodes themselves are named appropriately.
-* Episodes are **subbed in English**...(who watches dubbed anime anyway).
+* Episodes are **subbed in English**...(who watches dubbed anime anyway :poop:).
 
 <h2 align="center">Demonstration</h2>
 
