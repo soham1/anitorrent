@@ -44,7 +44,7 @@
 6. For additional anime, create another object in the array.
 7. Use the command line to cd into the repository and run ```node index.js```.
 8. All anime will be downloaded in ```anime/<anime name>/```.
-9. **Optional**: If you want to automatically start downloads on certain days, open Task Scheduler, Create Basic Task, Trigger Weekly, and Supply the Path to the ```anitorrent.bat``` file. Note that before doing this, you must set the path to the directory of the repository in the cd command of the bat file. 
+9. **Optional**: If you want to automatically start downloads on certain days, open Task Scheduler, Create Basic Task, Trigger Weekly, and Supply the Path to the ```anitorrent.bat``` file. Note that before doing this, you must set the path to the directory of the repository in the cd command of the bat file.
 
 <h2 align="center">
   <img width="200px" align="middle" src="https://i.imgur.com/7cKyn4V.png"/>
@@ -60,5 +60,6 @@
 <p align="center">[Puppeteer](https://github.com/GoogleChrome/puppeteer)</p>
 <p align="center">[WebTorrent](https://github.com/webtorrent/webtorrent)</p>
 <p align="center">[jQuery](https://jquery.com/)</p>
+<p align="center">[Notifier](https://github.com/mikaelbr/node-notifier)</p>
 <p align="center">[CLI-Progress](https://github.com/AndiDittrich/Node.CLI-Progress)</p>
 <p align="center">[Chalk](https://github.com/chalk/chalk)</p>
