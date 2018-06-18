@@ -34,7 +34,7 @@
 3. Go to [HorribleSubs](horriblesubs.info), and find the anime you want to set automatic downloads for.
 4. Copy the text that comes after "http://horriblesubs.info/shows/".
 5. Go to the cloned repository, open ```animeData.json``` and create a JSON object inside the array in the format:
-  ```json
+  ```javascript
   {
     "name":"Paste The Copied Text In Step 2 Here",
     "day":"Paste The Day It Releases Every Week i.e. Saturday",
