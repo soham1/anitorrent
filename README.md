@@ -1,6 +1,6 @@
-<h1 align="center">:sunny: AniTorrent :sunny:</h1>
+<h1 align="center">AniTorrent</h1>
 
-<p align="center">Automatically downloads the latest episode of your favorite anime from HorribleSubs.</p>
+<p align="center">Automatically downloads the latest episodes of your favorite anime from HorribleSubs!</p>
 
 <p align="center">
   <img src="https://i.imgur.com/LxpLI6A.jpg" alt="image">
@@ -9,10 +9,11 @@
 <h2 align="center">Features</h2>
 
 * Will only download on the day an episode is scheduled to release.
-* Downloads are in the form of peer-to-peer torrents, resulting in faster downloads (depends on anime popularity).
+* Downloads are in the form of peer-to-peer torrents, resulting in faster downloads (speed depends on anime popularity).
+* Can be used with Windows Scheduler or Windows Startup Processes using the ```anitorrent.bat``` file.
 * If there is a delay or an absence of an episode, no episodes will be downloaded.
 * Organizes downloaded episodes by folders (using anime's name), episodes themselves are named appropriately.
-* Episodes are **subbed in English**...(who watches dubbed anime anyway :poop:).
+* Episodes are **subbed in English**...(who watches dubbed anime anyway).
 
 <h2 align="center">Demonstration</h2>
 
@@ -32,7 +33,7 @@
 2. Use the command line to cd into the repository and run ```npm install```
 3. Go to [HorribleSubs](horriblesubs.info), and find the anime you want to set automatic downloads for.
 4. Copy the text that comes after "http://horriblesubs.info/shows/".
-5. Go to the cloned repository and create a JSON object inside the array in the format:
+5. Go to the cloned repository, open ```animeData.json``` and create a JSON object inside the array in the format:
   ```json
   {
     "name":"Paste The Copied Text In Step 2 Here",
@@ -43,12 +44,21 @@
 6. For additional anime, create another object in the array.
 7. Use the command line to cd into the repository and run ```node index.js```.
 8. All anime will be downloaded in ```anime/<anime name>/```.
+9. **Optional**: If you want to automatically start downloads on certain days, open Task Scheduler, Create Basic Task, Trigger Weekly, and Supply the Path to the ```anitorrent.bat``` file. Note that before doing this, you must set the path to the directory of the repository in the cd command of the bat file. 
+
+<h2 align="center">
+  <img width="200px" align="middle" src="https://i.imgur.com/7cKyn4V.png"/>
+</h2>
+
+<p align="center">
+  You can read how this project was created <a href="">here</a>.
+</p>
 
 <h2 align="center">Libraries</h2>
 
-* [NodeJS](https://nodejs.org)
-* [jQuery](https://jquery.com/)
-* [WebTorrent](https://github.com/webtorrent/webtorrent)
-* [Puppeteer](https://github.com/GoogleChrome/puppeteer)
-* [Chalk](https://github.com/chalk/chalk)
-* [CLI-Progress](https://github.com/AndiDittrich/Node.CLI-Progress)
+<p align="center">[NodeJS](https://nodejs.org)</p>
+<p align="center">[Puppeteer](https://github.com/GoogleChrome/puppeteer)</p>
+<p align="center">[WebTorrent](https://github.com/webtorrent/webtorrent)</p>
+<p align="center">[jQuery](https://jquery.com/)</p>
+<p align="center">[CLI-Progress](https://github.com/AndiDittrich/Node.CLI-Progress)</p>
+<p align="center">[Chalk](https://github.com/chalk/chalk)</p>
