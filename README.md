@@ -56,10 +56,24 @@
 
 <h2 align="center">Libraries</h2>
 
-<p align="center">[NodeJS](https://nodejs.org)</p>
-<p align="center">[Puppeteer](https://github.com/GoogleChrome/puppeteer)</p>
-<p align="center">[WebTorrent](https://github.com/webtorrent/webtorrent)</p>
-<p align="center">[jQuery](https://jquery.com/)</p>
-<p align="center">[Notifier](https://github.com/mikaelbr/node-notifier)</p>
-<p align="center">[CLI-Progress](https://github.com/AndiDittrich/Node.CLI-Progress)</p>
-<p align="center">[Chalk](https://github.com/chalk/chalk)</p>
+<p align="center">
+  <a href="https://nodejs.org">NodeJS</a>
+</p>
+<p align="center">
+  <a href="https://github.com/GoogleChrome/puppeteer">Puppeteer</a>
+</p>
+<p align="center">
+  <a href="https://github.com/webtorrent/webtorrent">WebTorrent</a>
+</p>
+<p align="center">
+  <a href="https://jquery.com/">jQuery</a>
+</p>
+<p align="center">
+  <a href="https://github.com/mikaelbr/node-notifier">Notifier</a>
+</p>
+<p align="center">
+  <a href="https://github.com/AndiDittrich/Node.CLI-Progress">CLI-Progress</a>
+</p>
+<p align="center">
+  <a href="https://github.com/chalk/chalk">Chalk</a>
+</p>
