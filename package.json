@@ -11,7 +11,9 @@
   "dependencies": {
     "chalk": "^2.4.1",
     "cli-progress": "^2.0.0",
+    "discord-rich-presence": "0.0.7",
     "node-notifier": "^5.2.1",
+    "prompts": "^0.1.14",
     "puppeteer": "^1.4.0",
     "request": "^2.87.0",
     "request-promise": "^4.2.2",

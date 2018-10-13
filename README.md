@@ -14,6 +14,8 @@
 * If there is a delay or an absence of an episode, no episodes will be downloaded.
 * Organizes downloaded episodes by folders (using anime's name), episodes themselves are named appropriately.
 * Episodes are **subbed in English**...(who watches dubbed anime anyway).
+* Native notifications are triggered on startup, torrent start, torrent end, and shutdown.  
+* Discord Rich Presence integration is included (refer to the screenshots and demonstration).
 
 <h2 align="center">Demonstration</h2>
 
@@ -22,6 +24,15 @@
     <img src="https://i.imgur.com/CjAIDjN.png">
   </a>
 </p>
+
+<h2 align="center">Screenshots</h2>
+
+<h3 align="center">Sample animeData.json for One Piece</h3>
+
+<p align="center">
+  <img width="70%" src="https://i.imgur.com/ezwMszP.png">
+</p>
+
 
 <h2 align="center">Prerequisites</h2>
 
@@ -36,23 +47,20 @@
 5. Go to the cloned repository, open ```animeData.json``` and create a JSON object inside the array in the format:
   ```javascript
   {
-    "name":"Paste The Copied Text In Step 2 Here",
-    "day":"Paste The Day It Releases Every Week i.e. Saturday",
-    "latestEpisode":"Paste Latest Episode Here"
-  }  
+    "resolution": RESOLUTION,
+    "anime": [
+        {
+            "name": "INSERT NAME FROM HORRIBLE SUBS HERE",
+            "day": "DATE OF EPISODE RELEASE",
+            "latestEpisode": LATEST EPISODE NUMBER
+        }
+    ]
+  }
   ```
 6. For additional anime, create another object in the array.
 7. Use the command line to cd into the repository and run ```node index.js```.
 8. All anime will be downloaded in ```anime/<anime name>/```.
 9. **Optional**: If you want to automatically start downloads on certain days, open Task Scheduler, Create Basic Task, Trigger Weekly, and Supply the Path to the ```anitorrent.bat``` file. Note that before doing this, you must set the path to the directory of the repository in the cd command of the bat file.
-
-<h2 align="center">
-  <img width="200px" align="middle" src="https://i.imgur.com/7cKyn4V.png"/>
-</h2>
-
-<p align="center">
-  You can read how this project was created <a href="">here</a>.
-</p>
 
 <h2 align="center">Libraries</h2>
 
@@ -67,6 +75,9 @@
 </p>
 <p align="center">
   <a href="https://jquery.com/">jQuery</a>
+</p>
+<p align="center">
+  <a href="https://github.com/devsnek/discord-rich-presence">Discord Rich Presence</a>
 </p>
 <p align="center">
   <a href="https://github.com/mikaelbr/node-notifier">Notifier</a>
